@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ @layer base {
+    label {
+        @apply flex flex-col
+    }
+    input,
+    select {
+        @apply bg-transparent border outline-none p-2 rounded
+    }
+}
+body{
+    background-color: rgb(18, 18, 65);
+}
+
+
